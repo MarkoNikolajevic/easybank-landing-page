@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Public Sans',
+    sans-serif;
+}
+
+.img-bg {
+  background-image: url('./images/bg-intro-mobile.svg');
+  background-repeat: no-repeat;
+}
+
+.header-btn {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
