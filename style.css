@@ -9,6 +9,10 @@
   background-repeat: no-repeat;
 }
 
+.header-img {
+  transform: translateY(-25%);
+}
+
 .btn {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
