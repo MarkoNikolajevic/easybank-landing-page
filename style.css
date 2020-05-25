@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 }
 
-.header-btn {
+.btn {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
 
@@ -19,4 +19,8 @@
 
 #latest-articles {
   background: hsl(0, 0%, 98%);
+}
+
+.footer {
+  background: hsl(233, 26%, 24%);
 }
