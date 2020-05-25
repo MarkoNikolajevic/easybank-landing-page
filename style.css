@@ -1,12 +1,21 @@
 * {
   box-sizing: border-box;
-  font-family: 'Public Sans',
-    sans-serif;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .img-bg {
   background-image: url('./images/bg-intro-mobile.svg');
   background-repeat: no-repeat;
+}
+
+/* @media screen and (min-width: 1200px) {
+  .img-bg {
+    background-image: url('./images/bg-intro-desktop.svg');
+  }
+} */
+
+.header {
+  background: hsl(0, 0%, 98%);
 }
 
 .header-img {
