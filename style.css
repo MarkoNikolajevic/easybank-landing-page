@@ -32,6 +32,10 @@
   }
 }
 
+.mobile-modal {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .btn {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   transition: all 300ms ease-in-out;
