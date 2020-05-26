@@ -17,7 +17,8 @@
 @media screen and (min-width: 1200px) {
   .header {
     background-image: url('./images/bg-intro-desktop.svg');
-    background-position: 35vw 110%;
+    background-position: 35vw 150%;
+    background-size: 90%;
     grid-template-columns: 2fr 3fr;
   }
 }
