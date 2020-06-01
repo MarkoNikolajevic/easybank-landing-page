@@ -8,6 +8,23 @@
   background-repeat: no-repeat;
 } */
 
+.nav-link::after,
+.nav-link:link::after {
+  content: '';
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 200ms ease-in-out;
+  border-radius: 50px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 .header {
   background-color: hsl(0, 0%, 98%);
   background-image: url('./images/bg-intro-mobile.svg');
